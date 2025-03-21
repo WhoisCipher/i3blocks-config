@@ -14,13 +14,7 @@ A sleek and efficient **i3blocks** setup for displaying system information in th
 Copy the configuration file to your i3blocks config directory:
 
 ```sh
+git clone git@github.com:WhoisCipher/i3blocks-config.git
 mkdir -p ~/.config/i3blocks
 cp i3blocks.conf ~/.config/i3blocks/config
-```
-then in the i3 config set:
-```config
-bar {
-    status_command i3blocks
-    ...
-}
 ```
